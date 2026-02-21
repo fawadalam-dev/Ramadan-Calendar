@@ -22,7 +22,7 @@ body {
 }
 
 body {
-  background: linear-gradient(135deg, #0f172a 0%, #1a2a4e 50%, #0f172a 100%);
+  background: linear-gradient(135deg, #0a0e27 0%, #0d1a3a 50%, #0a0e27 100%);
   min-height: 100vh;
 }
 
@@ -54,13 +54,13 @@ h3 {
 
 a {
   font-weight: 500;
-  color: #4facfe;
+  color: #00ccff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #00f2fe;
+  color: #0099ff;
 }
 
 button {

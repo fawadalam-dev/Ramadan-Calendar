@@ -5,12 +5,12 @@
 }
 
 :root {
-  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  --bg-color: #0f172a;
+  --primary-gradient: linear-gradient(135deg, #0066cc 0%, #1a3a52 100%);
+  --secondary-gradient: linear-gradient(135deg, #0052a3 0%, #0066cc 100%);
+  --accent-gradient: linear-gradient(135deg, #0066cc 0%, #1a3a52 100%);
+  --bg-color: #0a0e27;
   --text-color: #ffffff;
-  --card-bg: rgba(15, 23, 42, 0.8);
+  --card-bg: rgba(10, 14, 39, 0.9);
 }
 
 body {
@@ -26,26 +26,26 @@ body {
 
 .app {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f172a 0%, #1a2a4e 50%, #0f172a 100%);
+  background: linear-gradient(135deg, #0a0e27 0%, #0d1a3a 50%, #0a0e27 100%);
 }
 
 .app-header {
-  background: linear-gradient(135deg, #1a472a 0%, #2d5a4e 100%);
+  background: linear-gradient(135deg, #001f4d 0%, #0066cc 100%);
   padding: 40px 20px;
   text-align: center;
-  border-bottom: 2px solid rgba(102, 126, 234, 0.3);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid #00ccff;
+  box-shadow: 0 8px 30px rgba(0, 102, 204, 0.3);
 }
 
 .header-content h1 {
   font-size: 48px;
   margin-bottom: 10px;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #00ccff 0%, #0099ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  letter-spacing: 2px;
-  text-shadow: 0 4px 10px rgba(79, 172, 254, 0.2);
+  letter-spacing: 3px;
+  text-shadow: 0 4px 15px rgba(0, 204, 255, 0.3);
 }
 
 .header-subtitle {
@@ -65,12 +65,12 @@ section {
 }
 
 .app-footer {
-  background: linear-gradient(135deg, #1a472a 0%, #2d5a4e 100%);
+  background: linear-gradient(135deg, #001f4d 0%, #0066cc 100%);
   padding: 30px 20px;
   text-align: center;
   margin-top: 50px;
-  border-top: 2px solid rgba(102, 126, 234, 0.3);
-  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
+  border-top: 3px solid #00ccff;
+  box-shadow: 0 -8px 30px rgba(0, 102, 204, 0.3);
 }
 
 .app-footer p {
@@ -96,12 +96,12 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0066cc 0%, #00ccff 100%);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  background: linear-gradient(135deg, #00ccff 0%, #0066cc 100%);
 }
 
 /* Responsive design */

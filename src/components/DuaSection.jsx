@@ -4,6 +4,7 @@ import '../styles/DuaSection.css';
 function DuaSection({ duas }) {
   const [selectedDua, setSelectedDua] = useState(null);
   const [favorites, setFavorites] = useState([]);
+  const [selectedLanguage, setSelectedLanguage] = useState('arabic');
 
   const toggleFavorite = (duaId) => {
     if (favorites.includes(duaId)) {
@@ -15,7 +16,7 @@ function DuaSection({ duas }) {
 
   return (
     <div className="dua-section">
-      <h2>Duas for Ramadan</h2>
+      <h2>رمضان کی دعائیں</h2>
       <div className="duas-container">
         <div className="duas-list">
           {duas.map((dua) => (
@@ -42,35 +43,50 @@ function DuaSection({ duas }) {
         {selectedDua && (
           <div className="dua-detail">
             <h3>{selectedDua.title}</h3>
+            <div className="language-tabs">
+              <button
+                className={`language-btn ${selectedLanguage === 'arabic' ? 'active' : ''}`}
+                onClick={() => setSelectedLanguage('arabic')}
+              >
+                عربی
+              </button>
+              <button
+                className={`language-btn ${selectedLanguage === 'urdu' ? 'active' : ''}`}
+                onClick={() => setSelectedLanguage('urdu')}
+              >
+                اردو
+              </button>
+              <button
+                className={`language-btn ${selectedLanguage === 'pashto' ? 'active' : ''}`}
+                onClick={() => setSelectedLanguage('pashto')}
+              >
+                پشتو
+              </button>
+            </div>
             <div className="dua-content">
-              <div className="dua-arabic">
-                <label>Arabic:</label>
-                <p dir="rtl">{selectedDua.arabic}</p>
-              </div>
-              <div className="dua-transliteration">
-                <label>Transliteration:</label>
-                <p>{selectedDua.transliteration}</p>
-              </div>
-              <div className="dua-translation">
-                <label>English Translation:</label>
-                <p>{selectedDua.translation}</p>
+              <div className="dua-text">
+                <p dir={selectedLanguage === 'pashto' ? 'ltr' : 'rtl'}>
+                  {selectedLanguage === 'arabic' ? selectedDua.arabic : selectedLanguage === 'urdu' ? selectedDua.urdu : selectedDua.pashto}
+                </p>
               </div>
             </div>
             <button
               className="copy-btn"
               onClick={() => {
-                navigator.clipboard.writeText(selectedDua.arabic);
-                alert('Arabic text copied!');
+                const text = selectedLanguage === 'arabic' ? selectedDua.arabic : selectedLanguage === 'urdu' ? selectedDua.urdu : selectedDua.pashto;
+                navigator.clipboard.writeText(text);
+                const message = selectedLanguage === 'arabic' ? 'الدعاء نسخ!' : selectedLanguage === 'urdu' ? 'دعا کاپی ہو گئی!' : 'دعا کاپي شو!';
+                alert(message);
               }}
             >
-              Copy Arabic Text
+              {selectedLanguage === 'arabic' ? 'نسخ الدعاء' : selectedLanguage === 'urdu' ? 'دعا کاپی کریں' : 'دعا کاپي کړه'}
             </button>
           </div>
         )}
       </div>
       {favorites.length > 0 && (
         <div className="favorites-section">
-          <h3>Your Favorite Duas ({favorites.length})</h3>
+          <h3>پسندیدہ دعائیں ({favorites.length})</h3>
           <div className="favorites-list">
             {duas.filter(dua => favorites.includes(dua.id)).map(dua => (
               <div key={dua.id} className="favorite-item">

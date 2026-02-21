@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { convertTo12Hour } from '../utils/timeConverter';
 import '../styles/CalendarView.css';
 
 function CalendarView({ ramadanData, onDaySelect }) {
@@ -28,7 +29,16 @@ function CalendarView({ ramadanData, onDaySelect }) {
                 day: 'numeric'
               })}
             </div>
-            <div className="iftar-time">{day.iftarTime}</div>
+            <div className="timing-info">
+              <div className="sehri-time">
+                <span className="timing-label">Sehri:</span>
+                <span className="timing-value">{convertTo12Hour(day.sehriEnd)}</span>
+              </div>
+              <div className="iftari-time">
+                <span className="timing-label">Iftari:</span>
+                <span className="timing-value">{convertTo12Hour(day.iftarTime)}</span>
+              </div>
+            </div>
           </div>
         ))}
       </div>

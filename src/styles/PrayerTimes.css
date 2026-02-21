@@ -1,17 +1,18 @@
 .prayer-times {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
   border-radius: 12px;
   padding: 25px;
-  color: white;
+  color: black;
   margin: 20px 0;
-  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 102, 204, 0.4);
 }
 
 .prayer-times h3 {
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .prayers-grid {
@@ -22,20 +23,25 @@
 }
 
 .prayer-card {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 15px;
   text-align: center;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 .prayer-card:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .prayer-icon {
@@ -46,13 +52,15 @@
 .prayer-name {
   font-weight: 600;
   font-size: 14px;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
+  color: white;
 }
 
 .prayer-time {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
+  color: white;
 }
 
 .fasting-info {
@@ -60,7 +68,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   margin-top: 20px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.25);
   padding: 20px;
   border-radius: 10px;
 }
@@ -82,6 +90,32 @@
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 1px;
+  color: white;
+}
+
+.alarm-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.alarm-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: scale(1.05);
+}
+
+.alarm-btn.active {
+  background: rgba(0, 204, 255, 0.4);
+  border-color: #00ccff;
+  box-shadow: 0 0 10px rgba(0, 204, 255, 0.5);
 }
 
 @media (max-width: 768px) {

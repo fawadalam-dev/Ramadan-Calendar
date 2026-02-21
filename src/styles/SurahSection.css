@@ -1,4 +1,4 @@
-.dua-section {
+.surah-section {
   background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
   border-radius: 12px;
   padding: 25px;
@@ -7,7 +7,7 @@
   box-shadow: 0 8px 32px rgba(0, 102, 204, 0.4);
 }
 
-.dua-section h2 {
+.surah-section h2 {
   text-align: center;
   font-size: 28px;
   margin-bottom: 25px;
@@ -15,14 +15,14 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.duas-container {
+.surahs-container {
   display: grid;
   grid-template-columns: 250px 1fr;
   gap: 20px;
   margin-bottom: 25px;
 }
 
-.duas-list {
+.surahs-list {
   background: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow-y: auto;
@@ -30,7 +30,7 @@
   padding: 10px;
 }
 
-.dua-item {
+.surah-item {
   background: rgba(0, 0, 0, 0.25);
   padding: 12px;
   margin-bottom: 8px;
@@ -41,25 +41,37 @@
   color: white;
 }
 
-.dua-item:hover {
+.surah-item:hover {
   background: rgba(0, 0, 0, 0.35);
   transform: translateX(5px);
 }
 
-.dua-item.selected {
+.surah-item.selected {
   background: rgba(0, 0, 0, 0.4);
   border-left-color: white;
 }
 
-.dua-header {
+.surah-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 8px;
 }
 
-.dua-title {
+.surah-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   flex: 1;
+}
+
+.surah-number {
+  font-size: 12px;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+.surah-name {
   font-size: 14px;
   font-weight: 600;
   word-break: break-word;
@@ -82,7 +94,7 @@
   color: #ff6b6b;
 }
 
-.dua-detail {
+.surah-detail {
   background: rgba(0, 0, 0, 0.2);
   padding: 20px;
   border-radius: 10px;
@@ -90,10 +102,44 @@
   color: white;
 }
 
-.dua-detail h3 {
-  margin-bottom: 15px;
+.surah-title-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(0, 204, 255, 0.3);
+}
+
+.surah-number-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #00ccff 0%, #0099ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0066cc;
+  flex-shrink: 0;
+}
+
+.surah-title-text {
+  flex: 1;
+}
+
+.surah-title-text h3 {
+  margin: 0;
   font-size: 22px;
   color: white;
+}
+
+.surah-verses {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+  color: rgba(0, 204, 255, 0.9);
+  font-weight: 600;
 }
 
 .language-tabs {
@@ -124,26 +170,30 @@
   border-bottom-color: #00ccff;
 }
 
-.dua-content {
+.surah-content {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-bottom: 20px;
 }
 
-.dua-text {
+.surah-text {
   background: rgba(0, 0, 0, 0.15);
   padding: 25px;
   border-radius: 8px;
   border-left: 3px solid rgba(0, 204, 255, 0.6);
   color: white;
+  max-height: 400px;
+  overflow-y: auto;
 }
 
-.dua-text p {
-  font-size: 18px;
-  line-height: 1.8;
+.surah-text p {
+  font-size: 16px;
+  line-height: 2;
   margin: 0;
   text-align: right;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .copy-btn {
@@ -188,26 +238,39 @@
   font-size: 14px;
   border-left: 3px solid #00ccff;
   color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fav-number {
+  font-size: 12px;
+  opacity: 0.8;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
-  .duas-container {
+  .surahs-container {
     grid-template-columns: 1fr;
   }
 
-  .duas-list {
+  .surahs-list {
     max-height: 300px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
   }
 
-  .dua-item {
+  .surah-item {
     flex: 1 1 calc(50% - 10px);
     margin-bottom: 0;
   }
 
-  .dua-detail {
+  .surah-detail {
     order: -1;
+  }
+
+  .surah-text {
+    max-height: 300px;
   }
 }

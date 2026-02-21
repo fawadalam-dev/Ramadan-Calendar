@@ -1,86 +1,142 @@
 export const duas = [
   {
     id: 1,
-    title: "Dua for Breaking Fast (Iftar)",
+    title: "افطار کی دعا",
     arabic: "اللَّهُمَّ لَكَ صُمْتُ وَبِكَ آمَنتُ وَعَلَيْكَ تَوَكَّلْتُ وَعَلَىٰ رِزْقِكَ أَفْطَرْتُ",
-    transliteration: "Allahumma laka sumtu wa bika aamantu wa alayka tawakkaltu wa ala rizqika aftartu",
-    translation: "O Allah! For You I fasted, in You I believe, and with your sustenance I break my fast"
+    urdu: "اے اللہ! تمہارے لیے میں نے روزہ رکھا، تم پر ایمان لایا، اور تمہاری رزق سے افطار کیا",
+    pashto: "اے الله! ما د دې لپاره روزه ونيولې، د تا پر ايمان يم لاره، او د تا رزق سره افطار يم کړي"
   },
   {
     id: 2,
-    title: "Dua before Starting Fast (Sehri)",
+    title: "سحری کی دعا",
     arabic: "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِرَحْمَتِكَ الَّتِي وَسِعَتْ كُلَّ شَيْءٍ أَن تَغْفِرَ لِي",
-    transliteration: "Allahumma inni asaluka bi rahmatika allati wasiaat kulla shay-in an taghfira li",
-    translation: "O Allah! I ask You by Your Mercy which encompasses all things, to forgive me"
+    urdu: "اے اللہ! میں تجھ سے تیری رحمت کے ذریعے دعا کرتا ہوں جو ہر چیز کو محیط ہے کہ مجھے معاف کر دے",
+    pashto: "اے الله! زه د دې د رحمت له لارې دعا کوم چې هر شی احاطه کوي، مې معاف کې"
   },
   {
     id: 3,
-    title: "Dua for Laylat al-Qadr",
+    title: "شب قدر کی دعا",
     arabic: "اللَّهُمَّ إِنَّكَ عُفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
-    transliteration: "Allahumma innaka afuwwun tuhibbul afwa fa'fu anni",
-    translation: "O Allah! You are All-Pardoning and You love pardoning, so pardon me"
+    urdu: "اے اللہ! تو معافی دینے والا ہے اور معافی کو پسند کرتا ہے، پس مجھے معاف کر دے",
+    pashto: "اے الله! تو معاف کونکي ته معافي ته غوره وايت، په دې لپه مې معاف کې"
   },
   {
     id: 4,
-    title: "Dua for Guidance",
+    title: "ہدایت کی دعا",
     arabic: "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
-    transliteration: "Rabbana atina fi ad-dunya hasanatan wa fi al-akhirati hasanatan wa qina adhaba an-nar",
-    translation: "Our Lord! Give us good in this world and good in the Hereafter, and save us from the punishment of the Fire"
+    urdu: "اے ہمارے رب! ہمیں دنیا میں بھلائی عطا کر اور آخرت میں بھی بھلائی، اور ہمیں آگ کے عذاب سے بچا",
+    pashto: "اے زمونږ رب! موږ ته دنيا کې خير وركړ او په آخرت کې هم خير، او موږ د آگ عذاب سره بچې کې"
   },
   {
     id: 5,
-    title: "Dua for Forgiveness",
+    title: "معافی کی دعا",
     arabic: "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَن لَّا إِلَٰهَ إِلَّا أَنتَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
-    transliteration: "Subhanaka Allahumma wa bihamdika ashhadu alla ilaha illa anta astaghfiruka wa atubu ilayk",
-    translation: "Glory be to You O Allah, and all praise is due to You. I testify that there is no deity but You. I seek Your forgiveness and turn to You in repentance"
+    urdu: "تو پاک ہے اے اللہ اور تیری تعریف کے ساتھ۔ میں گواہی دیتا ہوں کہ تو کے علاوہ کوئی معبود نہیں۔ میں تجھ سے معافی چاہتا ہوں اور تیری طرف توبہ کرتا ہوں",
+    pashto: "تو پاک یې اے الله د دې ستايني سره. زه شهادت ورکوم چې تا سوای کوم معبود نشته. زه د دې د معافي غواړم او د دې لور ته توبه کوم"
   },
   {
     id: 6,
-    title: "Dua for Mercy and Compassion",
+    title: "رحمت و برکت کی دعا",
     arabic: "سَلَامٌ عَلَيْكُم وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
-    transliteration: "As-Salamu alaikum wa rahmatullahi wa barakatuh",
-    translation: "May peace, mercy, and blessings of Allah be upon you"
+    urdu: "تم پر اللہ کی سلامتی، رحمت اور برکات ہوں",
+    pashto: "تا پر د الله سلام، رحمت او برکتونه وي"
   },
   {
     id: 7,
-    title: "Dua when Waking Up",
+    title: "بیدار ہوتے وقت کی دعا",
     arabic: "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
-    transliteration: "Al-hamdu lillahi allathi ahyana ba'd ma amatana wa ilayhi an-nushur",
-    translation: "All praise be to Allah who has given us life after death, and unto Him is the resurrection"
+    urdu: "تمام تعریفیں اللہ کے لیے ہیں جس نے ہمیں موت کے بعد زندہ کیا، اور اسی کی طرف ہم لوٹیں گے",
+    pashto: "ټول ستايني د الله لپاره دي چې موږ د مرګ وروسته ژوندی کړل، او د هغه لور ته موږ خهرځو"
   },
   {
     id: 8,
-    title: "Dua for Strength",
+    title: "طاقت و قوت کی دعا",
     arabic: "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي",
-    transliteration: "Rabbi ishrah li sadri wa yassir li amri wahdulul uqdatan min lisani yafqahu qawli",
-    translation: "O my Lord! Expand my chest, ease my task for me, and remove the impediment from my speech so they understand what I say"
+    urdu: "اے میرے رب! میرے سینے کو کھول دے، میرا کام آسان کر دے، اور میری زبان سے گرہ حل کر تاکہ وہ میری بات سمجھیں",
+    pashto: "اے زما رب! زما سينه کې پراختيا کې، زما کار اسان کې، او زما ژبې ستکې حل کې د دې لپه چې هغوی زما مجلس پوهيږي"
   },
   {
     id: 9,
-    title: "Dua of Prophet Yunus",
+    title: "حضرت یونس کی دعا",
     arabic: "لَّا إِلَٰهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
-    transliteration: "La ilaha illa anta subhanaka inni kuntu min az-zalimin",
-    translation: "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers"
+    urdu: "تو کے علاوہ کوئی معبود نہیں، تو پاک ہے۔ بلاشبہ میں ظالموں میں سے تھا",
+    pashto: "تا سوای کوم معبود نشته، تو پاک یې. بې شک زه د ظالمينو نه تر منځ و"
   },
   {
     id: 10,
-    title: "Dua for Protection",
+    title: "حفاظت کی دعا",
     arabic: "أَعُوذُ بِكَلِمَاتِ اللّهِ التَّامَّةِ مِنْ شَرِّ مَا خَلَقَ",
-    transliteration: "A'udhu bikaalimat-illahi at-taammati min sharri ma khalaq",
-    translation: "I seek refuge in the perfect words of Allah from the evil of what He has created"
+    urdu: "میں اللہ کے مکمل کلمات سے پناہ مانگتا ہوں اس برائی سے جو اس نے پیدا کی ہے",
+    pashto: "زه د الله د مکمل کلماتو سره پناه غواړم د هغه برائي سره چې هغه پيدا کړي"
   },
   {
     id: 11,
-    title: "Dua for Prosperity",
+    title: "خوشحالی کی دعا",
     arabic: "اللَّهُمَّ اجْعَلْ لَنَا مِنْ أَمْرِنَا يُسْرًا",
-    transliteration: "Allahumma ajalal lana min amrina yusra",
-    translation: "O Allah! Make ease for us in our affairs"
+    urdu: "اے اللہ! ہمارے معاملات میں ہمارے لیے آسانی بنا دے",
+    pashto: "اے الله! زمونږ کاروبارو کې موږ ته اسانتيا کې"
   },
   {
     id: 12,
-    title: "Tasbeeh (Glorification)",
+    title: "تسبیح اور تعریف",
     arabic: "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ سُبْحَانَ اللَّهِ الْعَظِيمِ",
-    transliteration: "Subhan'Allah wa bihamdih, Subhan'Allah al-Azeem",
-    translation: "Glory be to Allah and in His praise, Glory be to Allah, the Most Great"
+    urdu: "اللہ پاک ہے اور اس کی تعریف ہے۔ اللہ عظیم الشان پاک ہے",
+    pashto: "الله پاک دی او د هغه ستايني دی. الله عظيم الشان پاک دی"
+  },
+  {
+    id: 13,
+    title: "رزق میں اضافہ کی دعا",
+    arabic: "رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَن دَخَلَ بَيْتِيَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ",
+    urdu: "اے میرے رب! مجھے، میرے والدین کو، اور اپنے مومن گھروں میں داخل ہونے والے تمام لوگوں کو معاف کر",
+    pashto: "اے زما رب! مې، زما والدینو، او هغو مومنينو ته معافي ورکې"
+  },
+  {
+    id: 14,
+    title: "صبر کی دعا",
+    arabic: "رَبَّنَا إِنَّنَا آمَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ",
+    urdu: "اے ہمارے رب! ہم نے ایمان لایا، تم ہمارے گناہ معاف کرو اور ہمیں جہنم سے بچاؤ",
+    pashto: "اے زمونږ رب! موږ ايمان يم لاره، موږ د گناهونو مسې کې، او موږ د جهنم سره بچې کې"
+  },
+  {
+    id: 15,
+    title: "علم میں اضافہ کی دعا",
+    arabic: "رَبِّ زِدْنِي عِلْمًا",
+    urdu: "اے میرے رب! مجھے علم میں اضافہ دے",
+    pashto: "اے زما رب! موږ ته د علم میں اضافه ورکې"
+  },
+  {
+    id: 16,
+    title: "تقویٰ کی دعا",
+    arabic: "اللَّهُمَّ أَلِفْ بَيْنَ قُلُوبِنَا، وَأَصْلِحْ ذَاتَ بَيْنِنَا، وَاهْدِنَا سُبُلَ السَّلَامِ",
+    urdu: "اے اللہ! ہمارے دلوں میں محبت ڈال، ہمارے آپس کے تعلقات ٹھیک کر، اور ہمیں سلام کے راستے دکھا",
+    pashto: "اے الله! موږ د زړونو تر منځ محبت وساتی، موږ د اصلاح کې، او موږ ته د سلام لار وږی دې"
+  },
+  {
+    id: 17,
+    title: "نیکیوں میں اضافہ کی دعا",
+    arabic: "اللَّهُمَّ أَعِنَّا عَلَى الخَيْرِ وَزَيِّن قُلُوبَنَا بِالتَّقْوَى",
+    urdu: "اے اللہ! ہمیں نیکیوں میں مدد دے اور ہمارے دلوں کو تقویٰ سے سجا",
+    pashto: "اے الله! موږ ته د خير کې مرسته وکې او موږ د زړونو د تقوی سره سجه"
+  },
+  {
+    id: 18,
+    title: "حاجت پوری کی دعا",
+    arabic: "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ",
+    urdu: "اے جیتے ہوئے! اے ہمیشہ رہنے والے! میں تیری رحمت سے مدد مانگتا ہوں",
+    pashto: "اے ژوندونکي! اے پاتې! زه د دې د رحمت سره مرسته غواړم"
+  },
+  {
+    id: 19,
+    title: "بخشش کی دعا",
+    arabic: "اللَّهُمَّ عَافِنِي فِيمَا آتَيْتَنِي وَارْزُقْنِي شُكْرَ مَا أَعْطَيْتَنِي",
+    urdu: "اے اللہ! مجھے اس میں خوش رکھ جو تو نے مجھے دیا ہے، اور مجھے تیری بہتریوں کا شکر ادا کرنے کی توفیق دے",
+    pashto: "اے الله! موږ ته د دې کې خوشحالتيا ورکې چې تا موږ ته ورکړه، او موږ ته د شکر توفيق ورکې"
+  },
+  {
+    id: 20,
+    title: "خشیت الہی کی دعا",
+    arabic: "اللَّهُمَّ اجْعَلْنَا مِمَّن يَخْشَاكَ وَيَرْجُوكَ وَيَعْمَلُ بِطَاعَتِكَ",
+    urdu: "اے اللہ! ہمیں ان میں سے بنا جو تجھ سے ڈرتے ہیں اور تم سے امید رکھتے ہیں",
+    pashto: "اے الله! موږ د هغو نه تر منځ کې جې چې د دې نه وېږدي او د دې سے امید لري"
   }
 ];
