@@ -139,3 +139,41 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .prayer-times {
+    padding: 12px;
+  }
+
+  .prayers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .prayer-card {
+    padding: 10px;
+  }
+
+  .prayer-icon {
+    font-size: 20px;
+  }
+
+  .prayer-time {
+    font-size: 14px;
+  }
+
+  .fasting-info {
+    grid-template-columns: 1fr;
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .fasting-info .time {
+    font-size: 20px;
+  }
+
+  .alarm-btn {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
