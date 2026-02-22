@@ -1,12 +1,8 @@
-import { useState } from 'react';
 import { convertTo12Hour } from '../utils/timeConverter';
 import '../styles/CalendarView.css';
 
-function CalendarView({ ramadanData, onDaySelect }) {
-  const [selectedDay, setSelectedDay] = useState(1);
-
+function CalendarView({ ramadanData, onDaySelect, selectedDay }) {
   const handleDayClick = (day) => {
-    setSelectedDay(day);
     onDaySelect(day);
   };
 

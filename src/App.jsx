@@ -10,8 +10,18 @@ import { duas } from './data/duas'
 import { surahs } from './data/surahs'
 
 function App() {
-  const [selectedDay, setSelectedDay] = useState(1)
-  const currentDayData = ramadanData.find(day => day.day === selectedDay)
+  const getTodayString = () => {
+    const t = new Date()
+    const y = t.getFullYear()
+    const m = String(t.getMonth() + 1).padStart(2, '0')
+    const d = String(t.getDate()).padStart(2, '0')
+    return `${y}-${m}-${d}`
+  }
+
+  const todayStr = getTodayString()
+  const todayEntry = ramadanData.find((day) => day.date === todayStr)
+  const [selectedDay, setSelectedDay] = useState(todayEntry ? todayEntry.day : 1)
+  const currentDayData = ramadanData.find((day) => day.day === selectedDay)
 
   return (
     <div className="app">
@@ -26,6 +36,7 @@ function App() {
         <section className="calendar-section">
           <CalendarView 
             ramadanData={ramadanData}
+            selectedDay={selectedDay}
             onDaySelect={setSelectedDay}
           />
         </section>
