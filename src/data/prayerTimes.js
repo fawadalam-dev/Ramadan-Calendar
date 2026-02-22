@@ -6,10 +6,10 @@ export const ramadanData = [
     sunrise: "06:17",
     dhuhr: "12:30",
     asr: "16:00",
-    maghrib: "18:43",
+    maghrib: "17:52",
     isha: "20:10",
     sehriEnd: "05:20",
-    iftarTime: "18:43"
+    iftarTime: "17:52"
   },
   {
     day: 2,
@@ -21,7 +21,7 @@ export const ramadanData = [
     maghrib: "18:44",
     isha: "20:11",
     sehriEnd: "05:19",
-    iftarTime: "18:44"
+    iftarTime: "17:52"
   },
   {
     day: 3,
@@ -33,7 +33,7 @@ export const ramadanData = [
     maghrib: "18:45",
     isha: "20:12",
     sehriEnd: "05:18",
-    iftarTime: "18:45"
+    iftarTime: "17:52"
   },
   {
     day: 4,
@@ -45,7 +45,7 @@ export const ramadanData = [
     maghrib: "18:46",
     isha: "20:13",
     sehriEnd: "05:17",
-    iftarTime: "18:46"
+    iftarTime: "17:52"
   },
   {
     day: 5,
@@ -57,7 +57,7 @@ export const ramadanData = [
     maghrib: "18:47",
     isha: "20:14",
     sehriEnd: "05:16",
-    iftarTime: "18:47"
+    iftarTime: "17:52"
   },
   {
     day: 6,
@@ -69,7 +69,7 @@ export const ramadanData = [
     maghrib: "18:48",
     isha: "20:15",
     sehriEnd: "05:15",
-    iftarTime: "18:48"
+    iftarTime: "17:52"
   },
   {
     day: 7,
@@ -81,7 +81,7 @@ export const ramadanData = [
     maghrib: "18:49",
     isha: "20:16",
     sehriEnd: "05:14",
-    iftarTime: "18:49"
+    iftarTime: "17:52"
   },
   {
     day: 8,
@@ -93,7 +93,7 @@ export const ramadanData = [
     maghrib: "18:50",
     isha: "20:17",
     sehriEnd: "05:13",
-    iftarTime: "18:50"
+    iftarTime: "17:52"
   },
   {
     day: 9,
@@ -105,7 +105,7 @@ export const ramadanData = [
     maghrib: "18:51",
     isha: "20:18",
     sehriEnd: "05:12",
-    iftarTime: "18:51"
+    iftarTime: "17:52"
   },
   {
     day: 10,
@@ -117,7 +117,7 @@ export const ramadanData = [
     maghrib: "18:52",
     isha: "20:19",
     sehriEnd: "05:11",
-    iftarTime: "18:52"
+    iftarTime: "17:52"
   },
   {
     day: 11,
@@ -129,7 +129,7 @@ export const ramadanData = [
     maghrib: "18:53",
     isha: "20:20",
     sehriEnd: "05:09",
-    iftarTime: "18:53"
+    iftarTime: "17:52"
   },
   {
     day: 12,
@@ -141,7 +141,7 @@ export const ramadanData = [
     maghrib: "18:54",
     isha: "20:21",
     sehriEnd: "05:08",
-    iftarTime: "18:54"
+    iftarTime: "17:52"
   },
   {
     day: 13,
@@ -153,7 +153,7 @@ export const ramadanData = [
     maghrib: "18:55",
     isha: "20:22",
     sehriEnd: "05:07",
-    iftarTime: "18:55"
+    iftarTime: "17:52"
   },
   {
     day: 14,
@@ -165,7 +165,7 @@ export const ramadanData = [
     maghrib: "18:56",
     isha: "20:23",
     sehriEnd: "05:06",
-    iftarTime: "18:56"
+    iftarTime: "17:52"
   },
   {
     day: 15,
@@ -177,7 +177,7 @@ export const ramadanData = [
     maghrib: "18:57",
     isha: "20:24",
     sehriEnd: "05:04",
-    iftarTime: "18:57"
+    iftarTime: "17:52"
   },
   {
     day: 16,
@@ -189,7 +189,7 @@ export const ramadanData = [
     maghrib: "18:58",
     isha: "20:25",
     sehriEnd: "05:03",
-    iftarTime: "18:58"
+    iftarTime: "17:52"
   },
   {
     day: 17,
@@ -201,7 +201,7 @@ export const ramadanData = [
     maghrib: "18:59",
     isha: "20:26",
     sehriEnd: "05:02",
-    iftarTime: "18:59"
+    iftarTime: "17:52"
   },
   {
     day: 18,
@@ -213,7 +213,7 @@ export const ramadanData = [
     maghrib: "19:00",
     isha: "20:27",
     sehriEnd: "05:01",
-    iftarTime: "19:00"
+    iftarTime: "17:52"
   },
   {
     day: 19,
@@ -225,7 +225,7 @@ export const ramadanData = [
     maghrib: "19:01",
     isha: "20:28",
     sehriEnd: "04:59",
-    iftarTime: "19:01"
+    iftarTime: "17:52"
   },
   {
     day: 20,
@@ -237,7 +237,7 @@ export const ramadanData = [
     maghrib: "19:02",
     isha: "20:29",
     sehriEnd: "04:58",
-    iftarTime: "19:02"
+    iftarTime: "17:52"
   },
   {
     day: 21,
@@ -249,7 +249,7 @@ export const ramadanData = [
     maghrib: "19:03",
     isha: "20:30",
     sehriEnd: "04:57",
-    iftarTime: "19:03"
+    iftarTime: "17:52"
   },
   {
     day: 22,
@@ -261,7 +261,7 @@ export const ramadanData = [
     maghrib: "19:04",
     isha: "20:31",
     sehriEnd: "04:55",
-    iftarTime: "19:04"
+    iftarTime: "17:52"
   },
   {
     day: 23,
@@ -273,7 +273,7 @@ export const ramadanData = [
     maghrib: "19:05",
     isha: "20:32",
     sehriEnd: "04:54",
-    iftarTime: "19:05"
+    iftarTime: "17:52"
   },
   {
     day: 24,
@@ -285,7 +285,7 @@ export const ramadanData = [
     maghrib: "19:06",
     isha: "20:33",
     sehriEnd: "04:53",
-    iftarTime: "19:06"
+    iftarTime: "17:52"
   },
   {
     day: 25,
@@ -297,7 +297,7 @@ export const ramadanData = [
     maghrib: "19:07",
     isha: "20:34",
     sehriEnd: "04:51",
-    iftarTime: "19:07"
+    iftarTime: "17:52"
   },
   {
     day: 26,
@@ -309,7 +309,7 @@ export const ramadanData = [
     maghrib: "19:08",
     isha: "20:35",
     sehriEnd: "04:50",
-    iftarTime: "19:08"
+    iftarTime: "17:52"
   },
   {
     day: 27,
@@ -321,7 +321,7 @@ export const ramadanData = [
     maghrib: "19:09",
     isha: "20:36",
     sehriEnd: "04:49",
-    iftarTime: "19:09"
+    iftarTime: "17:52"
   },
   {
     day: 28,
@@ -333,7 +333,7 @@ export const ramadanData = [
     maghrib: "19:10",
     isha: "20:37",
     sehriEnd: "04:47",
-    iftarTime: "19:10"
+    iftarTime: "17:52"
   },
   {
     day: 29,
@@ -345,7 +345,7 @@ export const ramadanData = [
     maghrib: "19:11",
     isha: "20:38",
     sehriEnd: "04:46",
-    iftarTime: "19:11"
+    iftarTime: "17:52"
   },
   {
     day: 30,
@@ -357,6 +357,6 @@ export const ramadanData = [
     maghrib: "19:12",
     isha: "20:39",
     sehriEnd: "04:45",
-    iftarTime: "19:12"
+    iftarTime: "17:52"
   }
 ];
